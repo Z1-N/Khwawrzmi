@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Calculator  </title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="scrn" class="screen">
+             
+        </div>
+    <div class="clac-buttons">
+        <div class="button-row">
+            <button class="clear">C</button>
+            <button class="backspace">&leftarrow;</button>
+            <button class="divide" onclick="operation(this.className)">&divide;</button>
+        </div>
+        <div class="button-row">
+            <button id="eight" onclick="ButtonPress(this.id)">8</button>
+            <button id="seven" onclick="ButtonPress(this.id)">7</button>
+            <button id="nine" onclick="ButtonPress(this.id)">9</button>
+            <button class="times" onclick="operation(this.className)">&times;</button>
+        </div>
+        <div class="button-row">
+            <button id="four" onclick="ButtonPress(this.id)">4</button>
+            <button id="five" onclick="ButtonPress(this.id)">5</button>
+            <button id="six" onclick="ButtonPress(this.id)">6</button>
+            <button class="minus" onclick="operation(this.className)">&minus;</button>
+        </div>
+        <div class="button-row">
+            <button id="one" onclick="ButtonPress(this.id)">1</button>
+            <button id="two" onclick="ButtonPress(this.id)">2</button>
+            <button id="three" onclick="ButtonPress(this.id)">3</button>
+            <button class="plus" onclick="operation(this.className)">&plus;</button>
+        </div>
+        <div class="button-row">
+            <button id="zero" style="flex-basis: 75%;" onclick="ButtonPress(this.id)">0</button>
+            <button class="equal" onclick="operation(this.className)">&equals;</button>
+        </div>
+    </div>
+</div>
+<footer>&copy; Copyright 2023 Eltayib Yousif</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
