@@ -33,7 +33,7 @@ body{
 }
 
 .screen{
-    backdrop-filter: blur(5.5x);
+    backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background-color: rgb(255, 255, 255 , 0.75);
     border: 1px solid rgb(255, 255, 255 , 0.01);
@@ -54,7 +54,7 @@ body{
 }
 
 button{
-    backdrop-filter: blur(5.5x);
+    backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background-color: rgb(255, 255, 255 , 0.75);
     border: 1px solid rgb(255, 255, 255 , 0.01);
@@ -68,7 +68,7 @@ button{
 }
 
 .button-row button:last-child{
-    backdrop-filter: blur(5.5x);
+    backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background-color: #A40E4C;
     border: 1px solid rgb(255, 255, 255 , 0.01);
